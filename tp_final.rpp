@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.35/win64" 1751156475
+<REAPER_PROJECT 0.1 "7.35/win64" 1751157976
   <NOTES 0 2
   >
   RIPPLE 0 0
@@ -19,7 +19,7 @@
   PANMODE 3
   PANLAWFLAGS 3
   CURSOR 0
-  ZOOM 100 0 0
+  ZOOM 6.49054715188745 0 0
   VZOOMEX 6 0
   USE_REC_CFG 0
   RECMODE 1
@@ -98,8 +98,8 @@
   >
   <PROJBAY
   >
-  <TRACK {00D84FC6-A661-425A-99EB-F4FA2D61DA3B}
-    NAME ""
+  <TRACK {4303ABFF-9A6D-448D-842F-F83EBEFDEC88}
+    NAME Neva
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
@@ -119,9 +119,55 @@
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
-    TRACKID {00D84FC6-A661-425A-99EB-F4FA2D61DA3B}
+    TRACKID {4303ABFF-9A6D-448D-842F-F83EBEFDEC88}
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 50 265 655 408
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VIDEO_EFFECT "Video processor" ""
+        <CODE
+          |// Item fades affect video
+          |input_track(0) > 0 ? (
+          |  input_info(0,project_w,project_h,0,ta=0);
+          |  ta < 1 ? (
+          |    gfx_blit(input_next_item(0),1);
+          |    (gfx_a=ta)>0 ? gfx_blit(0,1);
+          |  );
+          |);
+        >
+        CODEPARM 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      >
+      PRESETNAME "Basic helpers: Item fades affect video"
+      FLOATPOS 0 0 0 0
+      FXID {D462EB33-BDBF-43CB-BADC-BA32835F6EE1}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 62.2
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 2.46512345193382 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {C5290BA3-2117-4726-8E59-A4BC48E99747}
+      IID 2
+      NAME Neva.mp4
+      VOLPAN 1 0 1 -1
+      SOFFS 60
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CFC648AC-CA47-4371-8D3F-9C4F6DCD23C8}
+      <SOURCE VIDEO
+        FILE "E:\mateo\facu\2° - 1erCuatrimestre\Sonido I\TP final\Neva.mp4"
+      >
+    >
   >
 >

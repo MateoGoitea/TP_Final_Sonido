@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.35/win64" 1751509738
+<REAPER_PROJECT 0.1 "7.35/win64" 1751509146
   <NOTES 0 2
   >
   RIPPLE 0 0
@@ -18,9 +18,9 @@
   VIDEO_CONFIG 0 0 65792
   PANMODE 3
   PANLAWFLAGS 3
-  CURSOR 61.53766666666449
+  CURSOR 0
   ZOOM 4.61122669093425 0 0
-  VZOOMEX 6 130
+  VZOOMEX 6 0
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -201,7 +201,7 @@
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
-    VOLPAN 0.07340987323634 0 -1 -1 1
+    VOLPAN 0.20369801508874 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -209,7 +209,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FIXEDLANES 9 0 0 0 0
-    SEL 1
+    SEL 0
     REC 0 5056 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -353,7 +353,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {950D3B46-456C-44AD-AC5A-53D2FAB5B6AD}
       IID 82
       NAME 11-MIDI
@@ -374,19 +374,19 @@
         E 820 80 45 00
         E 0 90 47 7f
         E 655 80 47 00
-        E 526 90 37 7f
-        E 2136 90 41 7f
-        E 240 80 37 00
-        E 960 90 3e 7f
-        E 600 80 41 00
-        E 1200 90 39 7f
-        E 480 80 3e 00
-        E 1920 90 3c 7f
-        E 480 80 39 00
-        e 1800 90 40 7f
-        E 360 80 3c 00
-        E 1299 90 35 7f
-        e 1461 80 40 00
+        E 622 90 39 7f
+        E 1640 90 43 7f
+        E 736 80 39 00
+        E 984 80 43 00
+        E 840 90 3b 7f
+        E 1920 90 35 7f
+        E 360 80 3b 00
+        E 1320 90 39 7f
+        E 480 80 35 00
+        E 1338 80 39 00
+        E 342 90 3c 7f
+        E 1419 90 35 7f
+        E 1461 80 3c 00
         E 240 90 3e 7f
         E 757 80 35 00
         E 532 90 32 7f
@@ -411,7 +411,7 @@
         IGNTEMPO 0 120 4 4
         SRCCOLOR 82
         VELLANE -1 100 0 0 1
-        CFGEDITVIEW 31064.36 0.069608 48 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 20534.76 0.069608 48 12 0 -1 0 0 0 0.5
         KEYSNAP 1
         TRACKSEL 0
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
@@ -434,7 +434,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
     FIXEDLANES 9 0 0 0 0
-    SEL 0
+    SEL 1
     REC 0 5056 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0 0
